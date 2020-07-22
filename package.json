@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-parceljs-gh-pages-deploy-test",
+  "homepage": "http://ermogenes.github.io/vanilla-parceljs-gh-pages-deploy-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ermogenes/vanilla-parceljs-gh-pages-deploy-test.git",
+  "author": "Ermogenes Palacio <ermogenes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "main": "^1000.0.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /vanilla-parceljs-gh-pages-deploy-test/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^3.1.0"
+  }
+}
