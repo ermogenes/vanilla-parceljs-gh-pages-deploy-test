@@ -2,7 +2,9 @@
     /* Reference an image file */
     /* Photo by Jess Bailey Designs from Pexels. Tks! */
     background-image: url('/purple-petaled-flower-on-white-surface-934011.d9c85563.jpg');
-    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(94, 30, 64);
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
